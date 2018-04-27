@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Xcode-Starter-Template_Tests' do
+  pod 'Xcode-Starter-Template', :path => '../'
+  
+  
+end

@@ -1,0 +1,22 @@
+{
+  "name": "Xcode-Starter-Template",
+  "version": "0.1.0",
+  "summary": "A short description of Xcode-Starter-Template.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/apple.avadhesh@gmail.com/Xcode-Starter-Template",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "apple.avadhesh@gmail.com": "avadhesh.sharma@mobileprogrammingllc.com"
+  },
+  "source": {
+    "git": "https://github.com/apple.avadhesh@gmail.com/Xcode-Starter-Template.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Xcode-Starter-Template/Classes/**/*"
+}

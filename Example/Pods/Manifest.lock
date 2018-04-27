@@ -1,0 +1,16 @@
+PODS:
+  - Xcode-Starter-Template (0.1.0)
+
+DEPENDENCIES:
+  - Xcode-Starter-Template (from `../`)
+
+EXTERNAL SOURCES:
+  Xcode-Starter-Template:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Xcode-Starter-Template: 8451fc39b67134659afcbaa1fff42562bd886f0f
+
+PODFILE CHECKSUM: 00600809ce4a44bf9fb0bb9255385e753eb18173
+
+COCOAPODS: 1.5.0

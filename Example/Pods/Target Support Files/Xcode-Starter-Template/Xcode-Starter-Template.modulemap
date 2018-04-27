@@ -1,0 +1,6 @@
+framework module Xcode_Starter_Template {
+  umbrella header "Xcode-Starter-Template-umbrella.h"
+
+  export *
+  module * { export * }
+}
