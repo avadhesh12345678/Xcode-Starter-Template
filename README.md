@@ -22,7 +22,7 @@ pod 'Xcode-Starter-Template'
 
 ## Author
 
-apple.avadhesh@gmail.com, avadhesh.sharma@mobileprogrammingllc.com
+avadhesh.sharma@mobileprogrammingllc.com
 
 ## License
 
