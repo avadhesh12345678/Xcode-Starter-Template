@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/avadhesh12345678/Xcode-Starter-Template'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'apple.avadhesh@gmail.com' => 'avadhesh.sharma@mobileprogrammingllc.com' }
+  s.author           = { 'Xcode-Starter-Template' => 'avadhesh.sharma@mobileprogrammingllc.com' }
   s.source           = { :git => 'https://github.com/avadhesh12345678/Xcode-Starter-Template.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
