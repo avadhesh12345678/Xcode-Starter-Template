@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42892C71DBD9A7C672AB479E7FD80DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5D29695A2098C55100959860 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2969592098C55100959860 /* ReachabilityManager.swift */; };
 		5D4316832093D28D00F1EE50 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4316802093D28C00F1EE50 /* AppStoryboard.swift */; };
 		5D4316842093D28D00F1EE50 /* AppMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4316822093D28D00F1EE50 /* AppMode.swift */; };
 		60C23A0713E730C21F6DCC8517414074 /* Pods-Xcode-Starter-Template_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F510C591F494946A80DE21862DDE7E1 /* Pods-Xcode-Starter-Template_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +36,7 @@
 		46AAF21A9C790AEE995859CCBE8F72A4 /* Pods-Xcode-Starter-Template_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Xcode-Starter-Template_Tests.modulemap"; sourceTree = "<group>"; };
 		4F510C591F494946A80DE21862DDE7E1 /* Pods-Xcode-Starter-Template_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Xcode-Starter-Template_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A7D9D3CDA904962FE8124854FD4741B /* Pods-Xcode-Starter-Template_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Xcode-Starter-Template_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D2969592098C55100959860 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		5D2FDB1F8A377A65B321ADAA7C29AD2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D4316802093D28C00F1EE50 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		5D4316822093D28D00F1EE50 /* AppMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				5D4316822093D28D00F1EE50 /* AppMode.swift */,
+				5D2969592098C55100959860 /* ReachabilityManager.swift */,
 			);
 			name = Utils;
 			path = "Xcode-Starter-Template/Classes/Utils";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D29695A2098C55100959860 /* ReachabilityManager.swift in Sources */,
 				5D4316832093D28D00F1EE50 /* AppStoryboard.swift in Sources */,
 				A1BFE61B5D2352BAD1B2E095D180DA69 /* Pods-Xcode-Starter-Template_Tests-dummy.m in Sources */,
 				5D4316842093D28D00F1EE50 /* AppMode.swift in Sources */,
@@ -445,6 +449,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -539,6 +544,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
