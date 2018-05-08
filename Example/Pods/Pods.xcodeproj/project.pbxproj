@@ -11,6 +11,7 @@
 		5D29695A2098C55100959860 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2969592098C55100959860 /* ReachabilityManager.swift */; };
 		5D4316832093D28D00F1EE50 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4316802093D28C00F1EE50 /* AppStoryboard.swift */; };
 		5D4316842093D28D00F1EE50 /* AppMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4316822093D28D00F1EE50 /* AppMode.swift */; };
+		5D6A4AED20A2162A0061DA70 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A4AEC20A2162A0061DA70 /* AppVersion.swift */; };
 		60C23A0713E730C21F6DCC8517414074 /* Pods-Xcode-Starter-Template_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F510C591F494946A80DE21862DDE7E1 /* Pods-Xcode-Starter-Template_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1BFE61B5D2352BAD1B2E095D180DA69 /* Pods-Xcode-Starter-Template_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B138CE3E7B63070E54A4414100E46378 /* Pods-Xcode-Starter-Template_Tests-dummy.m */; };
 		A4A28EC1AE8EE08D76AC79957BE41485 /* Xcode-Starter-Template-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D95BA657A4E3C71501C7B7FD3411CA8 /* Xcode-Starter-Template-dummy.m */; };
@@ -40,6 +41,7 @@
 		5D2FDB1F8A377A65B321ADAA7C29AD2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D4316802093D28C00F1EE50 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		5D4316822093D28D00F1EE50 /* AppMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
+		5D6A4AEC20A2162A0061DA70 /* AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67F0587E6B46DEB36211EA3CAED40190 /* Pods-Xcode-Starter-Template_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Xcode-Starter-Template_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		67F343B499D116F709288B006CF8124D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				5D4316822093D28D00F1EE50 /* AppMode.swift */,
 				5D2969592098C55100959860 /* ReachabilityManager.swift */,
+				5D6A4AEC20A2162A0061DA70 /* AppVersion.swift */,
 			);
 			name = Utils;
 			path = "Xcode-Starter-Template/Classes/Utils";
@@ -301,6 +304,7 @@
 			files = (
 				5D29695A2098C55100959860 /* ReachabilityManager.swift in Sources */,
 				5D4316832093D28D00F1EE50 /* AppStoryboard.swift in Sources */,
+				5D6A4AED20A2162A0061DA70 /* AppVersion.swift in Sources */,
 				A1BFE61B5D2352BAD1B2E095D180DA69 /* Pods-Xcode-Starter-Template_Tests-dummy.m in Sources */,
 				5D4316842093D28D00F1EE50 /* AppMode.swift in Sources */,
 			);
