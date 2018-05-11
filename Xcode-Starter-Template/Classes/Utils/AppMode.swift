@@ -10,16 +10,16 @@ import Foundation
 
 public enum AppMode: String {
     
-    case release
+    case production
     
-    case debug
+    case staging
     
     public static var current:AppMode {
         
         #if DEBUG
-        return .debug
+        return .staging
         #else
-        return .release
+        return .production
         #endif
     }
 }
